@@ -1,0 +1,226 @@
+[EL Fine]: server: 2019-02-27 14:18:54.252--Thread(Thread[AWT-EventQueue-0,6,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2019-02-27 14:18:55.018--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Carro] is set to [FIELD].
+[EL Config]: metadata: 2019-02-27 14:18:55.065--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field vendas] is being defaulted to: class modelo.Venda.
+[EL Config]: metadata: 2019-02-27 14:18:55.066--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Pessoa] is set to [FIELD].
+[EL Config]: metadata: 2019-02-27 14:18:55.066--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Vendedor] is set to [FIELD].
+[EL Config]: metadata: 2019-02-27 14:18:55.066--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field vendas] is being defaulted to: class modelo.Venda.
+[EL Config]: metadata: 2019-02-27 14:18:55.066--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Venda] is set to [FIELD].
+[EL Config]: metadata: 2019-02-27 14:18:55.067--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field carro] is being defaulted to: class modelo.Carro.
+[EL Config]: metadata: 2019-02-27 14:18:55.067--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2019-02-27 14:18:55.068--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field vendedor] is being defaulted to: class modelo.Vendedor.
+[EL Config]: metadata: 2019-02-27 14:18:55.068--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2019-02-27 14:18:55.068--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field vendas] is being defaulted to: class modelo.Venda.
+[EL Config]: metadata: 2019-02-27 14:18:55.07--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Carro] is being defaulted to: Carro.
+[EL Config]: metadata: 2019-02-27 14:18:55.072--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Carro] is being defaulted to: CARRO.
+[EL Config]: metadata: 2019-02-27 14:18:55.101--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [preco] is being defaulted to: PRECO.
+[EL Config]: metadata: 2019-02-27 14:18:55.103--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [categoria] is being defaulted to: CATEGORIA.
+[EL Config]: metadata: 2019-02-27 14:18:55.103--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2019-02-27 14:18:55.103--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.103--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [fabricante] is being defaulted to: FABRICANTE.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Vendedor] is being defaulted to: Vendedor.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Pessoa] is being defaulted to: Pessoa.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Pessoa] is being defaulted to: PESSOA.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [endereco] is being defaulted to: ENDERECO.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2019-02-27 14:18:55.104--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.105--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [dtNascimento] is being defaulted to: DTNASCIMENTO.
+[EL Config]: metadata: 2019-02-27 14:18:55.108--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The discriminator column name for the root inheritance class [modelo.Pessoa] is being defaulted to: DTYPE.
+[EL Config]: metadata: 2019-02-27 14:18:55.108--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [codigo] is being defaulted to: CODIGO.
+[EL Config]: metadata: 2019-02-27 14:18:55.109--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [salario] is being defaulted to: SALARIO.
+[EL Config]: metadata: 2019-02-27 14:18:55.109--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Venda] is being defaulted to: Venda.
+[EL Config]: metadata: 2019-02-27 14:18:55.109--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Venda] is being defaulted to: VENDA.
+[EL Config]: metadata: 2019-02-27 14:18:55.109--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [dtVenda] is being defaulted to: DTVENDA.
+[EL Config]: metadata: 2019-02-27 14:18:55.109--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.11--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [pagamento] is being defaulted to: PAGAMENTO.
+[EL Config]: metadata: 2019-02-27 14:18:55.11--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2019-02-27 14:18:55.11--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [telefone] is being defaulted to: TELEFONE.
+[EL Config]: metadata: 2019-02-27 14:18:55.118--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [cpf] is being defaulted to: CPF.
+[EL Config]: metadata: 2019-02-27 14:18:55.118--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2019-02-27 14:18:55.133--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field carro] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.134--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The foreign key column name for the mapping element [carro] is being defaulted to: CARRO_ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.134--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.134--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The foreign key column name for the mapping element [cliente] is being defaulted to: CLIENTE_ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.134--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field vendedor] is being defaulted to: ID.
+[EL Config]: metadata: 2019-02-27 14:18:55.134--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--The foreign key column name for the mapping element [vendedor] is being defaulted to: VENDEDOR_ID.
+[EL Info]: 2019-02-27 14:18:55.509--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.1.v20171221-bd47e8f
+[EL Fine]: connection: 2019-02-27 14:18:55.751--Thread(Thread[AWT-EventQueue-0,6,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Config]: connection: 2019-02-27 14:18:55.761--ServerSession(1680182918)--Connection(550833376)--Thread(Thread[AWT-EventQueue-0,6,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/cardealership"
+))
+[EL Config]: connection: 2019-02-27 14:18:55.872--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--Connected: jdbc:postgresql://localhost:5432/cardealership
+	User: postgres
+	Database: PostgreSQL  Version: 9.5.12
+	Driver: PostgreSQL Native Driver  Version: PostgreSQL 9.4 JDBC4.1 (build 1206)
+[EL Info]: connection: 2019-02-27 14:18:55.936--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/G:/IFPB/P4/POB/Workspace_POB_18.2/CarDealership/target/classes/_loja-eclipselink login successful
+[EL Fine]: sql: 2019-02-27 14:19:14.702--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:19:14.712--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2019-02-27 14:19:14.715--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [1, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.724--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2019-02-27 14:19:14.727--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [11, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.728--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [11]
+[EL Fine]: sql: 2019-02-27 14:19:14.734--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2019-02-27 14:19:14.736--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.737--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2019-02-27 14:19:14.738--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [12, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.739--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [12]
+[EL Fine]: sql: 2019-02-27 14:19:14.741--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2019-02-27 14:19:14.742--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [3, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.743--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2019-02-27 14:19:14.744--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [13, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.745--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [13]
+[EL Fine]: sql: 2019-02-27 14:19:14.746--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2019-02-27 14:19:14.747--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.748--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2019-02-27 14:19:14.749--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [14, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.75--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [14]
+[EL Fine]: sql: 2019-02-27 14:19:14.752--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2019-02-27 14:19:14.753--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [5, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.755--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2019-02-27 14:19:14.755--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [15, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.763--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [15]
+[EL Fine]: sql: 2019-02-27 14:19:14.766--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2019-02-27 14:19:14.767--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [6, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.768--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2019-02-27 14:19:14.768--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [16, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.769--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [16]
+[EL Fine]: sql: 2019-02-27 14:19:14.771--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2019-02-27 14:19:14.772--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [7, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.773--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2019-02-27 14:19:14.774--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [17, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.774--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [17]
+[EL Fine]: sql: 2019-02-27 14:19:14.776--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [8]
+[EL Fine]: sql: 2019-02-27 14:19:14.777--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [8, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.778--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [8]
+[EL Fine]: sql: 2019-02-27 14:19:14.779--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [18, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.779--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [18]
+[EL Fine]: sql: 2019-02-27 14:19:14.781--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [9]
+[EL Fine]: sql: 2019-02-27 14:19:14.782--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [9, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.783--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [9]
+[EL Fine]: sql: 2019-02-27 14:19:14.784--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [19, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.785--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [19]
+[EL Fine]: sql: 2019-02-27 14:19:14.786--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [10]
+[EL Fine]: sql: 2019-02-27 14:19:14.787--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [10, Cliente]
+[EL Fine]: sql: 2019-02-27 14:19:14.788--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [10]
+[EL Fine]: sql: 2019-02-27 14:19:14.789--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((ID = ?) AND (DTYPE = ?))
+	bind => [20, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:19:14.79--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (VENDEDOR_ID = ?)
+	bind => [20]
+[EL Fine]: sql: 2019-02-27 14:19:39.521--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:20:10.757--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA
+[EL Fine]: sql: 2019-02-27 14:20:38.543--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO WHERE (NOME = ?)
+	bind => [Compass]
+[EL Fine]: sql: 2019-02-27 14:20:58.141--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO WHERE (NOME = ?)
+	bind => [Ka]
+[EL Fine]: sql: 2019-02-27 14:20:58.155--ClientSession(343605942)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO CARRO (CATEGORIA, FABRICANTE, NOME, PRECO) VALUES (?, ?, ?, ?)
+	bind => [Hatch Pequeno, Ford, Ka, 10000.0]
+[EL Fine]: sql: 2019-02-27 14:20:58.16--ClientSession(343605942)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2019-02-27 14:21:04.602--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:21:09.918--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO WHERE (NOME = ?)
+	bind => [Sandero]
+[EL Fine]: sql: 2019-02-27 14:21:09.924--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [10]
+[EL Fine]: sql: 2019-02-27 14:21:14.77--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:21:45.225--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA
+[EL Fine]: sql: 2019-02-27 14:21:57.225--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:22:53.168--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((NOME = ?) AND (DTYPE = ?))
+	bind => [Geraldo, Cliente]
+[EL Fine]: sql: 2019-02-27 14:22:53.172--ClientSession(2037625353)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO PESSOA (CPF, DTNASCIMENTO, EMAIL, ENDERECO, NOME, TELEFONE, DTYPE) VALUES (?, ?, ?, ?, ?, ?, ?)
+	bind => [059.128.194-05, 16/10/1992, junior@gmail.com, Rua do Flamengo, Geraldo, [B@276988db, Cliente]
+[EL Fine]: sql: 2019-02-27 14:22:53.178--ClientSession(2037625353)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2019-02-27 14:22:56.686--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:23:04.926--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:23:21.311--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:23:34.923--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:23:44.358--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:24:34.008--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:24:34.017--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Vendedor]
+[EL Fine]: sql: 2019-02-27 14:24:34.021--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:24:50.557--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((NOME = ?) AND (DTYPE = ?))
+	bind => [Geraldo, Cliente]
+[EL Fine]: sql: 2019-02-27 14:24:50.562--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE ((NOME = ?) AND (DTYPE = ?))
+	bind => [Santana, Vendedor]
+[EL Fine]: sql: 2019-02-27 14:24:50.567--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO WHERE (NOME = ?)
+	bind => [Ka]
+[EL Fine]: sql: 2019-02-27 14:24:50.572--ClientSession(439577195)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO VENDA (DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID) VALUES (?, ?, ?, ?, ?)
+	bind => [27-02-2019, Dinheiro, 11, 21, 20]
+[EL Fine]: sql: 2019-02-27 14:24:50.575--ClientSession(439577195)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2019-02-27 14:24:55.477--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA
+[EL Fine]: sql: 2019-02-27 14:25:03.102--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:25:09.837--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:25:15.025--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Cliente]
+[EL Fine]: sql: 2019-02-27 14:25:17.701--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CPF, EMAIL, TELEFONE FROM PESSOA WHERE ((NOME = ?) AND (DTYPE = ?))
+	bind => [Geraldo, Cliente]
+[EL Fine]: sql: 2019-02-27 14:25:17.706--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CLIENTE_ID = ?)
+	bind => [21]
+[EL Fine]: sql: 2019-02-27 14:25:20.703--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:25:23.337--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO
+[EL Fine]: sql: 2019-02-27 14:25:25.46--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CATEGORIA, FABRICANTE, NOME, PRECO FROM CARRO WHERE (NOME = ?)
+	bind => [Ka]
+[EL Fine]: sql: 2019-02-27 14:25:25.462--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTVENDA, PAGAMENTO, CARRO_ID, CLIENTE_ID, VENDEDOR_ID FROM VENDA WHERE (CARRO_ID = ?)
+	bind => [11]
+[EL Fine]: sql: 2019-02-27 14:25:29.917--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DTYPE, DTNASCIMENTO, ENDERECO, NOME, CODIGO, SALARIO FROM PESSOA WHERE (DTYPE = ?)
+	bind => [Vendedor]
+[EL Config]: connection: 2019-02-27 14:25:40.74--ServerSession(1680182918)--Connection(849447837)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
+[EL Info]: connection: 2019-02-27 14:25:40.74--ServerSession(1680182918)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/G:/IFPB/P4/POB/Workspace_POB_18.2/CarDealership/target/classes/_loja-eclipselink logout successful
+[EL Config]: connection: 2019-02-27 14:25:40.74--ServerSession(1680182918)--Connection(550833376)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
